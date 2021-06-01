@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/_a2008098c08769130fe3192455b3f18__phone_backgrounds_wallpaper_backgrounds"
+    tools:context="activities.MainActivity"
+    android:padding="10dp">
+
+
+
+    <Button
+        android:id="@+id/btnShowToast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="63dp"
+        android:text="Show Toast" />
+
+    <EditText
+        android:id="@+id/etUserMsg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="195dp"
+        android:ems="10"
+       android:hint="Enter your Msg" />
+
+    <Button
+        android:id="@+id/btnSendMsgToNextActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Send data to next Activity" />
+
+    <Button
+        android:id="@+id/btnShareToOtherApps"
+        android:layout_width="173dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="400dp"
+        android:text="Share" />
+
+    <Button
+        android:id="@+id/btnRecyclerViewDemo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="470dp"
+        android:text="Recycler View Demo" />
+
+
+</RelativeLayout>
